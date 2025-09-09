@@ -1,0 +1,62 @@
+h1 {
+color:blue;
+border: 10px solid orange;
+margin-left:10px
+padding-inline 20px 20px;
+/*fitcontent fikser størrelse til å passe*/
+}
+li{
+    margin: 50px;
+    margin-left: 25px;
+
+color:orange;
+background-color:pink;
+}
+/* endre elementet med id frokost item til grønn*/
+#frokost-item {
+    color:green;
+    background-color:black;
+}
+
+ul {
+    border-radius: 5%;
+    background-color: red;
+    margin-inline: 50px;
+    margin-top:100px;
+    margin-bottom:100px;
+    margin-block: 500px 100px;
+    /*margin inline istedenfor margin left og right.*/
+}
+div {
+display:flex;
+
+}
+#box-container {
+border: 2px solid black;
+display: flex;
+flex-wrap: wrap;
+
+    
+}
+#box1{
+background-color: red;
+width: 31px;
+height: 31px;
+
+border: 10px solid orange;
+}
+#box2{
+background-color: blue;
+width: 50px;
+height: 50px;
+}
+#box3{
+background-color: green;
+width: 50px;
+height: 50px;
+}
+
+#pond {
+  display: flex;
+justify-content: row-reverse;
+}
